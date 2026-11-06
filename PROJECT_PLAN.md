@@ -21,7 +21,7 @@
 | 3. 起飛與降落 API | ✅ 完成 | 已用 API 執行並在 QGC 視覺驗證 |
 | 4. 移動與返航 API | ✅ 完成 | `goto` 與 `rtl` 已通過 API 和 QGC 驗證 |
 | 5. 完整整合驗收 | ✅ 完成 | API 與 QGC 交替控制已通過完整驗收 |
-| 6. 文件、錄影與交付 | ✅ 完成 | README、示範腳本與 5 分 45 秒驗收影片已整理完成 |
+| 6. 文件、錄影與交付 | ✅ 完成 | README、示範腳本與 5 分 45 秒主要驗收影片已整理完成（另附 2 分 38 秒替代版） |
 
 ## 專案目標
 
@@ -242,7 +242,8 @@ Docker container
 - [x] 已確認影片採單一支 5–8 分鐘 MP4。
 - [x] 已從邀請信確認：至少 480p，截止日前直接回覆原 Gmail。
 - [x] 按照錄影腳本完成實際錄製並檢查成片。
-- [x] 成片輸出為 `deliverables/valtec-acceptance-final.mp4`：H.264、1280×720、5 分 45 秒。
+- [x] 成片輸出為 `deliverables/valtec-acceptance-final.mp4`：H.264、1280×720、5 分 45 秒。**此檔為主要交付影片。**
+- [x] 另有較短的替代版本 `deliverables/v2/valtec-acceptance-v2.mp4`（1600×1000、2 分 38 秒，由 `deliverables/v2/build_video.py` 重剪），僅供備用，非主要交付。
 - [x] 成片保留 QGC、Swagger、起飛、降落、再次起飛及 QGC Go To 的操作畫面。
 - [x] `/goto` 與 `/rtl` 實際 HTTP 200 結果已加入片尾驗證頁；RTL 最終為 `Ready`、`armed: false`、高度約 0 公尺。
 - [x] 成片已完成抽幀、完整解碼與隱私檢查；未發現 Gmail、聊天內容、token、密碼或帳號資料。
@@ -253,6 +254,6 @@ Docker container
 ## 下一步
 
 實作與驗收素材均已完成。下一步由使用者檢視
-`deliverables/valtec-acceptance-final.mp4`，並決定是否採用目前的 5 分 45 秒版本，或先補錄
+`deliverables/valtec-acceptance-final.mp4`，（主要交付；2 分 38 秒的 v2 為較短替代版），並決定是否採用目前的 5 分 45 秒版本，或先補錄
 三個直接操作鏡頭以降低嚴格驗收風險。確認無誤後，再回覆原 Gmail 並附上或提供原始碼
 與影片連結。寄信屬於對外溝通，送出前必須取得使用者明確確認。

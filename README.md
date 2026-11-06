@@ -18,8 +18,8 @@ goto → rtl`。
 
 | 檔案 | 長度 | 解析度 | 說明 |
 | --- | --- | --- | --- |
-| [`deliverables/valtec-acceptance-final.mp4`](deliverables/valtec-acceptance-final.mp4) | 5 分 45 秒 | 1280×720 | 完整版驗收錄影 |
-| [`deliverables/v2/valtec-acceptance-v2.mp4`](deliverables/v2/valtec-acceptance-v2.mp4) | 2 分 38 秒 | 1600×1000 | 精簡重剪版（符合 [RECORDING_GUIDE.md](RECORDING_GUIDE.md) 的 3 分鐘內目標） |
+| **[`deliverables/valtec-acceptance-final.mp4`](deliverables/valtec-acceptance-final.mp4)（主要交付）** | 5 分 45 秒 | 1280×720 | 完整版驗收錄影，為正式交付影片 |
+| [`deliverables/v2/valtec-acceptance-v2.mp4`](deliverables/v2/valtec-acceptance-v2.mp4) | 2 分 38 秒 | 1600×1000 | 較短的替代版本（精簡重剪，符合 [RECORDING_GUIDE.md](RECORDING_GUIDE.md) 的 3 分鐘內目標），非主要交付 |
 
 其他檔案：
 
