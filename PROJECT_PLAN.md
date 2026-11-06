@@ -254,6 +254,6 @@ Docker container
 ## 下一步
 
 實作與驗收素材均已完成。下一步由使用者檢視
-`deliverables/valtec-acceptance-final.mp4`，（主要交付；2 分 38 秒的 v2 為較短替代版），並決定是否採用目前的 5 分 45 秒版本，或先補錄
+`deliverables/valtec-acceptance-final.mp4`（主要交付；2 分 38 秒的 v2 為較短替代版），並決定是否採用目前的 5 分 45 秒版本，或先補錄
 三個直接操作鏡頭以降低嚴格驗收風險。確認無誤後，再回覆原 Gmail 並附上或提供原始碼
 與影片連結。寄信屬於對外溝通，送出前必須取得使用者明確確認。
