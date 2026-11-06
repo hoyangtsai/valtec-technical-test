@@ -1,0 +1,5 @@
+API /goto verified
+HTTP 200
+Target position reached
+distance_to_target_m: 1.42
+altitude_error_m: 0.02

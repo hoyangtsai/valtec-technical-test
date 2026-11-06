@@ -1,0 +1,3 @@
+MVP acceptance complete
+QGroundControl and API controlled the same simulated vehicle
+through MAVLink Router

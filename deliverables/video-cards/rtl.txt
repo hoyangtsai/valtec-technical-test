@@ -1,0 +1,5 @@
+API /rtl verified
+HTTP 200
+RTL completed; vehicle landed and disarmed
+QGroundControl: Ready
+armed: false, altitude: approximately 0 m

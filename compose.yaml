@@ -1,0 +1,20 @@
+services:
+  simulator:
+    platform: linux/amd64
+    build: .
+    environment:
+      QGC_HOST: host.docker.internal
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - sitl-data:/var/lib/sitl
+    healthcheck:
+      test: ["CMD", "python", "/opt/sitl/check_connection.py", "--heartbeat-only"]
+      interval: 30s
+      timeout: 12s
+      start_period: 45s
+      retries: 3
+    stop_grace_period: 15s
+
+volumes:
+  sitl-data:

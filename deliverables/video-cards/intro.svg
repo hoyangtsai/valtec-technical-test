@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#111827"/>
+  <text x="640" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#f8fafc">Valtec Technical Test</text>
+  <text x="640" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" fill="#cbd5e1">ArduPilot Quad SITL + FastAPI + QGroundControl</text>
+  <text x="640" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#22c55e">Acceptance Demonstration</text>
+</svg>

@@ -1,0 +1,4 @@
+.git
+.firecrawl
+__pycache__
+*.pyc

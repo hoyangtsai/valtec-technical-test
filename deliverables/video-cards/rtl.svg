@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0f172a"/>
+  <text x="640" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">API /rtl verified</text>
+  <text x="640" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#22c55e">HTTP 200</text>
+  <text x="640" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#e2e8f0">RTL completed; vehicle landed and disarmed</text>
+  <text x="640" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" fill="#e2e8f0">QGroundControl: Ready</text>
+  <text x="640" y="505" text-anchor="middle" font-family="Menlo, monospace" font-size="30" fill="#94a3b8">armed: false, altitude: approximately 0 m</text>
+</svg>
