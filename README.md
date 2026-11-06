@@ -4,11 +4,29 @@
 MAVLink-router 與 FastAPI。Mac 上的 QGroundControl（QGC）可觀看及控制同一台
 模擬無人機，API 則提供起飛、降落、前往座標與返航功能。
 
-目前程式與整合驗收均已完成；第六階段正在整理文件、錄影與交付內容。
-完整進度請見 [PROJECT_PLAN.md](PROJECT_PLAN.md)，錄影腳本請見
+程式與整合驗收均已完成，驗收錄影位於 [`deliverables/`](deliverables/)
+（見下方「交付影片」）。完整進度請見 [PROJECT_PLAN.md](PROJECT_PLAN.md)，錄影腳本請見
 [RECORDING_GUIDE.md](RECORDING_GUIDE.md)。
 
 > 本專案只控制軟體模擬器，不會連接或操作真實無人機。
+
+## 交付影片
+
+驗收錄影放在 [`deliverables/`](deliverables/)，內容為依「人工整合驗收」流程，同時顯示
+終端機、Swagger/API 與 QGC，示範 `status → takeoff → land → takeoff → QGC Go To →
+goto → rtl`。
+
+| 檔案 | 長度 | 解析度 | 說明 |
+| --- | --- | --- | --- |
+| [`deliverables/valtec-acceptance-final.mp4`](deliverables/valtec-acceptance-final.mp4) | 5 分 45 秒 | 1280×720 | 完整版驗收錄影 |
+| [`deliverables/v2/valtec-acceptance-v2.mp4`](deliverables/v2/valtec-acceptance-v2.mp4) | 2 分 38 秒 | 1600×1000 | 精簡重剪版（符合 [RECORDING_GUIDE.md](RECORDING_GUIDE.md) 的 3 分鐘內目標） |
+
+其他檔案：
+
+- `deliverables/video-cards/`：影片的片頭、章節與片尾字卡（PNG / SVG / 文字）。
+- `deliverables/v2/build_video.py`、`marks.txt`：精簡版的剪輯腳本與時間標記。
+- 原始錄影（`*.mov`、`deliverables/v2/raw-cleanshot.mp4`，合計約 16 GB）超過 GitHub
+  的 100 MB 單檔限制，**不在此 repo 中**，僅保留在原作者本機。
 
 ## 系統架構
 
@@ -266,6 +284,7 @@ docker compose up -d
 │   ├── check_connection.py # 唯讀連線檢查
 │   ├── demo_api.py         # 完整 API / QGC 示範腳本
 │   └── start.sh            # container 啟動程序
+├── deliverables/           # 驗收錄影（成片、字卡、剪輯腳本）
 ├── compose.yaml
 ├── Dockerfile
 ├── PROJECT_PLAN.md         # 階段計畫與目前進度
